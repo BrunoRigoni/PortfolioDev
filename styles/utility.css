@@ -1,17 +1,20 @@
 .title-lg {
-    font: var(--title-lg)
+    font: var(--title-lg);
+    color: var(--gray-600);
 }
 
 .title-md {
-    font: var(--title-md)
+    font: var(--title-md);
 }
 .title-sm {
-    font: var(--title-sm)
+    font: var(--title-sm);
+    
 }
 
 .subtitle {
 
     font: var(--subtitle);
+    color: var(--gray-500);
 }
 
 .text-md {
@@ -20,5 +23,25 @@
 }
 .text-sm {
     font: var(--text-sm);
+    color: var(--gray-400);
 
+}
+
+
+/*displays*/
+.grid {
+    
+    display: grid;
+    align-self: center;
+    text-align: center;
+    
+}
+
+
+.grid-flow-cols {
+    grid-auto-flow: column;
+}
+
+.grid-flow-rows {
+    grid-auto-flow: row;
 }
