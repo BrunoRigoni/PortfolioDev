@@ -70,6 +70,10 @@ span {
 
 .btn-hover:hover  {
     border: 1px solid var(--blue);
+    cursor: pointer;
 }
 
+.btn-hover:hover .icon path {
+    fill: var(--blue);
 
+}

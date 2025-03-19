@@ -182,7 +182,7 @@ button {
 
 .contact-cards {
     gap: 16px;
-    margin-block: 200PX;
+    margin-block: 0 200PX;
 }
 
 

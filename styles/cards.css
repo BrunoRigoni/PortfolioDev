@@ -1,6 +1,8 @@
 #cards {
     gap: 24px;
     margin-block: 56px 144px;
+    place-items: center;
+    justify-self: center;
 
     a {
         text-decoration: none;
@@ -40,7 +42,6 @@
 
 .card:hover {
     border: 1px solid var(--gray-600);
-    
     
 }
 
