@@ -58,4 +58,8 @@ span {
     color: var(--red);
 }
 
+a {
+    color: inherit;
+}
+
 

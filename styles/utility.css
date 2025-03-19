@@ -12,9 +12,13 @@
 }
 
 .subtitle {
-
     font: var(--subtitle);
     color: var(--gray-500);
+}
+
+span {
+    font: var(--subtitle);
+    color: var(--red);
 }
 
 .text-md {
@@ -45,3 +49,21 @@
 .grid-flow-rows {
     grid-auto-flow: row;
 }
+
+.grid-card {
+    display: grid;
+    place-items: center;
+    text-align: start;
+    
+}
+
+.grid-flow-cards {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    grid-template-rows: repeat(2, 1fr);
+    justify-self: center;
+
+}
+
+
+

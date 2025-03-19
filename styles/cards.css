@@ -1,0 +1,80 @@
+#cards {
+    gap: 24px;
+    margin-block: 56px 144px;
+
+    a {
+        text-decoration: none;
+    }
+
+}
+
+
+.card {
+    text-align: start;
+    place-content: center;
+    gap: 20px;
+    
+
+
+    background-color: var(--gray-300);
+    width: 330px;
+    height: 280px;
+    padding: 12px;
+    border-radius: 8px;
+    
+
+    img {
+
+        width: 306px;
+        height: 156px;
+        background-size:contain;
+        border-radius: 8px;
+        object-fit: cover;
+
+
+
+    }
+
+
+}
+
+.card:hover {
+    border: 1px solid var(--gray-600);
+    
+    
+}
+
+img:hover {
+
+    width: 308px;
+    height: 156px;
+
+
+
+}
+
+/*Skills Card*/
+
+.skills-card {
+    border: 1px solid var(--gray-200);
+    border-radius: 8px;
+    width: 280px;
+    height: 155px;
+    place-content: start;
+    text-align: start;
+    padding: 27.5px 23px;
+    
+
+    img {
+        width: 48px;
+        height: 48px;
+    }
+
+}
+
+.grid-skills-card-rows {
+    grid-auto-flow: column;
+    gap: 44px;
+    justify-content: center;
+    padding-block-end: 120px;
+}
